@@ -1,0 +1,862 @@
+
+* Started at 2018-05-16T19:47:42.175Z
+
+* Settings
+Project dir: .
+Output dir: profile-out
+Profiler: buildscan
+Benchmark: false
+Versions: []
+Gradle User Home: gradle-user-home
+Targets: [clean_build]
+
+* Locating default Gradle version
+Downloading https://services.gradle.org/distributions/gradle-4.7-all.zip
+........................................................................................................
+Unzipping /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/wrapper/dists/gradle-4.7-all/4cret0dgl5o3b21weaoncl7ys/gradle-4.7-all.zip to /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/wrapper/dists/gradle-4.7-all/4cret0dgl5o3b21weaoncl7ys
+Set executable permissions for: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/wrapper/dists/gradle-4.7-all/4cret0dgl5o3b21weaoncl7ys/gradle-4.7/bin/gradle
+Download https://plugins.gradle.org/m2/com/gradle/build-scan/com.gradle.build-scan.gradle.plugin/1.8/com.gradle.build-scan.gradle.plugin-1.8.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-gradle-plugin/1.2.41/kotlin-gradle-plugin-1.2.41.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/3.1.2/gradle-3.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/0.1.0-alpha01/bundletool-0.1.0-alpha01.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-core/3.1.2/gradle-core-3.1.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.41/kotlin-stdlib-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.2.41/kotlin-compiler-embeddable-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.2.41/kotlin-annotation-processing-gradle-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-compiler-runner/1.2.41/kotlin-compiler-runner-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.41/kotlin-reflect-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-android-extensions/1.2.41/kotlin-android-extensions-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.2.41/kotlin-gradle-plugin-api-1.2.41.pom
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.8/build-scan-plugin-1.8.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle-api/26.1.2/lint-gradle-api-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/compilerCommon/3.1.2/compilerCommon-3.1.2.pom
+Download https://jcenter.bintray.com/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.1/asm-5.1.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-parent/5.1/asm-parent-5.1.pom
+Download https://jcenter.bintray.com/org/ow2/ow2/1.3/ow2-1.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/3.1.2/gradle-api-3.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/3.1.2/builder-3.1.2.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.pom
+Download https://jcenter.bintray.com/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.2.0/kotlin-stdlib-jre8-1.2.0.pom
+Download https://jcenter.bintray.com/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-parent/5.3.3/proguard-parent-5.3.3.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.1.2/error_prone_annotations-2.1.2.pom
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.pom
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-java-util/3.4.0/protobuf-java-util-3.4.0.pom
+Download https://jcenter.bintray.com/com/google/auto/value/auto-value/1.5.2/auto-value-1.5.2.pom
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-parent/3.4.0/protobuf-parent-3.4.0.pom
+Download https://jcenter.bintray.com/com/google/auto/auto-parent/3/auto-parent-3.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_parent/2.1.2/error_prone_parent-2.1.2.pom
+Download https://jcenter.bintray.com/com/google/guava/guava/22.0/guava-22.0.pom
+Download https://jcenter.bintray.com/com/google/google/1/google-1.pom
+Download https://jcenter.bintray.com/com/google/guava/guava-parent/22.0/guava-parent-22.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/0.1.0/aapt2-proto-0.1.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/annotations/13.0/annotations-13.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-script-runtime/1.2.41/kotlin-script-runtime-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-daemon-client/1.2.41/kotlin-daemon-client-1.2.41.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-build-common/1.2.41/kotlin-build-common-1.2.41.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/26.1.2/sdk-common-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/3.1.2/builder-model-3.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/3.1.2/builder-test-api-3.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/common/26.1.2/common-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/26.1.2/ddmlib-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/26.1.2/manifest-merger-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/26.1.2/protos-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/26.1.2/shared-26.1.2.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.pom
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.pom
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.pom
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.pom
+Download https://jcenter.bintray.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.pom
+Download https://jcenter.bintray.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/26.1.2/tracker-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/3.1.2/apksig-3.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/26.1.2/sdklib-26.1.2.pom
+Download https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.pom
+Download https://jcenter.bintray.com/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.pom
+Download https://jcenter.bintray.com/org/antlr/antlr4/4.5.3/antlr4-4.5.3.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/25/commons-parent-25.pom
+Download https://jcenter.bintray.com/org/antlr/antlr4-master/4.5.3/antlr4-master-4.5.3.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.7/gson-2.7.pom
+Download https://jcenter.bintray.com/org/sonatype/oss/oss-parent/9/oss-parent-9.pom
+Download https://jcenter.bintray.com/com/google/code/gson/gson-parent/2.7/gson-parent-2.7.pom
+Download https://jcenter.bintray.com/org/apache/apache/9/apache-9.pom
+Download https://jcenter.bintray.com/com/android/tools/annotations/24.5.0/annotations-24.5.0.pom
+Download https://jcenter.bintray.com/com/squareup/javapoet/1.8.0/javapoet-1.8.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/3.1.2/baseLibrary-3.1.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.0/kotlin-stdlib-jre7-1.2.0.pom
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.pom
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.pom
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.pom
+Download https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.pom
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-parent/1.14/animal-sniffer-parent-1.14.pom
+Download https://jcenter.bintray.com/org/codehaus/mojo/mojo-parent/34/mojo-parent-34.pom
+Download https://jcenter.bintray.com/org/codehaus/codehaus-parent/4/codehaus-parent-4.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/annotations/26.1.2/annotations-26.1.2.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/39/commons-parent-39.pom
+Download https://jcenter.bintray.com/org/apache/apache/16/apache-16.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.1/httpcomponents-client-4.1.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/26.1.2/layoutlib-api-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/repository/26.1.2/repository-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/26.1.2/dvlib-26.1.2.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/project/4.1.1/project-4.1.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-client/4.2.6/httpcomponents-client-4.2.6.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/project/7/project-7.pom
+Download https://jcenter.bintray.com/org/apache/apache/13/apache-13.pom
+Download https://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.pom
+Download https://jcenter.bintray.com/com/google/jimfs/jimfs/1.1/jimfs-1.1.pom
+Download https://jcenter.bintray.com/org/glassfish/jaxb/jaxb-runtime/2.2.11/jaxb-runtime-2.2.11.pom
+Download https://jcenter.bintray.com/com/google/jimfs/jimfs-parent/1.1/jimfs-parent-1.1.pom
+Download https://jcenter.bintray.com/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.pom
+Download https://jcenter.bintray.com/com/sun/xml/bind/mvn/jaxb-runtime-parent/2.2.11/jaxb-runtime-parent-2.2.11.pom
+Download https://jcenter.bintray.com/com/sun/activation/all/1.2.0/all-1.2.0.pom
+Download https://jcenter.bintray.com/com/sun/xml/bind/mvn/jaxb-parent/2.2.11/jaxb-parent-2.2.11.pom
+Download https://jcenter.bintray.com/net/java/jvnet-parent/1/jvnet-parent-1.pom
+Download https://jcenter.bintray.com/com/sun/xml/bind/jaxb-bom-ext/2.2.11/jaxb-bom-ext-2.2.11.pom
+Download https://jcenter.bintray.com/org/glassfish/jaxb/jaxb-bom/2.2.11/jaxb-bom-2.2.11.pom
+Download https://jcenter.bintray.com/net/java/jvnet-parent/4/jvnet-parent-4.pom
+Download https://jcenter.bintray.com/commons-codec/commons-codec/1.6/commons-codec-1.6.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.pom
+Download https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.pom
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcomponents-core/4.2.5/httpcomponents-core-4.2.5.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/5/commons-parent-5.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/22/commons-parent-22.pom
+Download https://jcenter.bintray.com/org/apache/apache/4/apache-4.pom
+Download https://jcenter.bintray.com/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.pom
+Download https://jcenter.bintray.com/org/glassfish/jaxb/jaxb-core/2.2.11/jaxb-core-2.2.11.pom
+Download https://jcenter.bintray.com/org/jvnet/staxex/stax-ex/1.7.7/stax-ex-1.7.7.pom
+Download https://jcenter.bintray.com/com/sun/xml/fastinfoset/fastinfoset-project/1.2.13/fastinfoset-project-1.2.13.pom
+Download https://jcenter.bintray.com/net/java/jvnet-parent/3/jvnet-parent-3.pom
+Download https://jcenter.bintray.com/com/sun/istack/istack-commons-runtime/2.21/istack-commons-runtime-2.21.pom
+Download https://jcenter.bintray.com/org/glassfish/jaxb/txw2/2.2.11/txw2-2.2.11.pom
+Download https://jcenter.bintray.com/javax/xml/bind/jaxb-api/2.2.12-b140109.1041/jaxb-api-2.2.12-b140109.1041.pom
+Download https://jcenter.bintray.com/com/sun/istack/istack-commons/2.21/istack-commons-2.21.pom
+Download https://jcenter.bintray.com/com/sun/xml/bind/mvn/jaxb-txw-parent/2.2.11/jaxb-txw-parent-2.2.11.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle/3.1.2/gradle-3.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/bundletool/0.1.0-alpha01/bundletool-0.1.0-alpha01.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-core/3.1.2/gradle-core-3.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-gradle-plugin/1.2.41/kotlin-gradle-plugin-1.2.41.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-annotation-processing-gradle/1.2.41/kotlin-annotation-processing-gradle-1.2.41.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-android-extensions/1.2.41/kotlin-android-extensions-1.2.41.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle-api/26.1.2/lint-gradle-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/builder/3.1.2/builder-3.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-compiler-embeddable/1.2.41/kotlin-compiler-embeddable-1.2.41.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/manifest-merger/26.1.2/manifest-merger-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/sdk-common/26.1.2/sdk-common-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/gradle-api/3.1.2/gradle-api-3.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.41/kotlin-reflect-1.2.41.jar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/compilerCommon/3.1.2/compilerCommon-3.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/sdklib/26.1.2/sdklib-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/repository/26.1.2/repository-26.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.2.0/kotlin-stdlib-jre8-1.2.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.0/kotlin-stdlib-jre7-1.2.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.41/kotlin-stdlib-1.2.41.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-compiler-runner/1.2.41/kotlin-compiler-runner-1.2.41.jar
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.8/build-scan-plugin-1.8.jar
+Download https://jcenter.bintray.com/com/android/tools/build/transform-api/2.0.0-deprecated-use-gradle-api/transform-api-2.0.0-deprecated-use-gradle-api.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-analysis/5.1/asm-analysis-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-commons/5.1/asm-commons-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-util/5.1/asm-util-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm-tree/5.1/asm-tree-5.1.jar
+Download https://jcenter.bintray.com/org/ow2/asm/asm/5.1/asm-5.1.jar
+Download https://jcenter.bintray.com/net/sf/jopt-simple/jopt-simple/4.9/jopt-simple-4.9.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-gradle/5.3.3/proguard-gradle-5.3.3.jar
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-java-util/3.4.0/protobuf-java-util-3.4.0.jar
+Download https://jcenter.bintray.com/com/google/auto/value/auto-value/1.5.2/auto-value-1.5.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-test-api/3.1.2/builder-test-api-3.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/ddms/ddmlib/26.1.2/ddmlib-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/tracker/26.1.2/tracker-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/shared/26.1.2/shared-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/layoutlib/layoutlib-api/26.1.2/layoutlib-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/dvlib/26.1.2/dvlib-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/common/26.1.2/common-26.1.2.jar
+Download https://jcenter.bintray.com/com/google/jimfs/jimfs/1.1/jimfs-1.1.jar
+Download https://jcenter.bintray.com/com/google/guava/guava/22.0/guava-22.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2-proto/0.1.0/aapt2-proto-0.1.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/analytics-library/protos/26.1.2/protos-26.1.2.jar
+Download https://jcenter.bintray.com/com/google/protobuf/protobuf-java/3.4.0/protobuf-java-3.4.0.jar
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.1.2/error_prone_annotations-2.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/annotations/13.0/annotations-13.0.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-script-runtime/1.2.41/kotlin-script-runtime-1.2.41.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/builder-model/3.1.2/builder-model-3.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-build-common/1.2.41/kotlin-build-common-1.2.41.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-daemon-client/1.2.41/kotlin-daemon-client-1.2.41.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/apksig/3.1.2/apksig-3.1.2.jar
+Download https://jcenter.bintray.com/com/squareup/javawriter/2.5.0/javawriter-2.5.0.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcpkix-jdk15on/1.56/bcpkix-jdk15on-1.56.jar
+Download https://jcenter.bintray.com/org/bouncycastle/bcprov-jdk15on/1.56/bcprov-jdk15on-1.56.jar
+Download https://jcenter.bintray.com/it/unimi/dsi/fastutil/7.2.0/fastutil-7.2.0.jar
+Download https://jcenter.bintray.com/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/baseLibrary/3.1.2/baseLibrary-3.1.2.jar
+Download https://jcenter.bintray.com/org/antlr/antlr4/4.5.3/antlr4-4.5.3.jar
+Download https://jcenter.bintray.com/commons-io/commons-io/2.4/commons-io-2.4.jar
+Download https://jcenter.bintray.com/com/googlecode/juniversalchardet/juniversalchardet/1.0.3/juniversalchardet-1.0.3.jar
+Download https://jcenter.bintray.com/com/squareup/javapoet/1.8.0/javapoet-1.8.0.jar
+Download https://jcenter.bintray.com/com/google/code/gson/gson/2.7/gson-2.7.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/annotations/26.1.2/annotations-26.1.2.jar
+Download https://jcenter.bintray.com/net/sf/proguard/proguard-base/5.3.3/proguard-base-5.3.3.jar
+Download https://jcenter.bintray.com/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar
+Download https://jcenter.bintray.com/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar
+Download https://jcenter.bintray.com/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar
+Download https://jcenter.bintray.com/org/apache/commons/commons-compress/1.12/commons-compress-1.12.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpclient/4.2.6/httpclient-4.2.6.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpmime/4.1/httpmime-4.1.jar
+Download https://jcenter.bintray.com/net/sf/kxml/kxml2/2.3.0/kxml2-2.3.0.jar
+Download https://jcenter.bintray.com/com/sun/activation/javax.activation/1.2.0/javax.activation-1.2.0.jar
+Download https://jcenter.bintray.com/org/apache/httpcomponents/httpcore/4.2.5/httpcore-4.2.5.jar
+Download https://jcenter.bintray.com/org/glassfish/jaxb/jaxb-runtime/2.2.11/jaxb-runtime-2.2.11.jar
+Download https://jcenter.bintray.com/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+Download https://jcenter.bintray.com/commons-codec/commons-codec/1.6/commons-codec-1.6.jar
+Download https://jcenter.bintray.com/org/glassfish/jaxb/jaxb-core/2.2.11/jaxb-core-2.2.11.jar
+Download https://jcenter.bintray.com/org/jvnet/staxex/stax-ex/1.7.7/stax-ex-1.7.7.jar
+Download https://jcenter.bintray.com/com/sun/xml/fastinfoset/FastInfoset/1.2.13/FastInfoset-1.2.13.jar
+Download https://jcenter.bintray.com/javax/xml/bind/jaxb-api/2.2.12-b140109.1041/jaxb-api-2.2.12-b140109.1041.jar
+Download https://jcenter.bintray.com/org/glassfish/jaxb/txw2/2.2.11/txw2-2.2.11.jar
+Download https://jcenter.bintray.com/com/sun/istack/istack-commons-runtime/2.21/istack-commons-runtime-2.21.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-gradle-plugin-api/1.2.41/kotlin-gradle-plugin-api-1.2.41.jar
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :help
+
+Welcome to Gradle 4.7.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see a list of command-line options, run gradle --help
+
+To see more detail about a task, run gradle help --task <task>
+
+For troubleshooting, visit https://help.gradle.org
+
+BUILD SUCCESSFUL in 50s
+1 actionable task: 1 executed
+
+* Stopping daemons
+
+Welcome to Gradle 4.7!
+
+Here are the highlights of this release:
+ - Incremental annotation processing
+ - JDK 10 support
+ - Grouped non-interactive console logs
+ - Failed tests are re-run first for quicker feedback
+
+For more details see https://docs.gradle.org/4.7/release-notes.html
+
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Scenarios
+Scenario: clean_build using Gradle 4.7
+  Gradle version: 4.7 (/Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/wrapper/dists/gradle-4.7-all/4cret0dgl5o3b21weaoncl7ys/gradle-4.7)
+  Run using: ToolingApi
+  Cleanup Tasks: [clean, cleanBuildCache]
+  Tasks: [assembleDebug]
+  Gradle args: []
+  Build changes: none
+  Warm-ups: 2
+  Builds: 1
+
+* Running scenario clean_build using Gradle 4.7 (scenario 1/1)
+
+* Stopping daemons
+No Gradle daemons are running.
+
+* Build details
+Gradle version: 4.7
+Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home
+OS name: Mac OS X 10.13.3
+JVM args:
+  -XX:+HeapDumpOnOutOfMemoryError
+  -Xmx1024m
+  -Dfile.encoding=UTF-8
+  -Duser.country=US
+  -Duser.language=en
+  -Duser.variant
+  -Dorg.gradle.profiler.scenario=clean_build
+Gradle args:
+  -I
+  /var/folders/zv/t5fcbzn91mq99hh8vjwj9s1xzg8nsj/T/gradleProfilerPidInstrumentation2031773937125135002.gradle
+  --gradle-user-home
+  /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home
+  -I
+  /var/folders/zv/t5fcbzn91mq99hh8vjwj9s1xzg8nsj/T/gradleProfilerBuildScanInitScript7553786597491722644.gradle
+
+* Running warm-up build #1 with cleanup tasks [clean, cleanBuildCache]
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.11/build-scan-plugin-1.11.pom
+Download https://plugins.gradle.org/m2/com/gradle/build-scan-plugin/1.11/build-scan-plugin-1.11.jar
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 23s
+5 actionable tasks: 5 executed
+
+WARNING: Several versions of the build scan plugin were applied: [1.11, 1.8].
+The build scan data was captured by version [1.11].
+This is often caused by multiple init scripts and/or build scripts applying the plugin.
+Used daemon with pid 70536
+Execution time 23616 ms
+
+* Running warm-up build #1 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.0.2/constraint-layout-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.1.2/adapters-3.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.1.2/library-3.1.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.2.41/kotlin-stdlib-jre8-1.2.41.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/26.1.0/appcompat-v7-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/multidex/1.0.2/multidex-1.0.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.1.0/support-core-utils-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.3/runtime-1.0.3.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/26.1.0/support-annotations-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/26.1.0/support-vector-drawable-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/26.1.0/animated-vector-drawable-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.1.0/support-v4-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.41/kotlin-stdlib-jre7-1.2.41.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.3/common-1.0.3.pom
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.0.0/common-1.0.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.1.0/support-compat-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.1.0/support-media-compat-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.1.0/support-core-ui-26.1.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/library/3.1.2/library-3.1.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/multidex/1.0.2/multidex-1.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/adapters/3.1.2/adapters-3.1.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout/1.0.2/constraint-layout-1.0.2.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-v4/26.1.0/support-v4-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/26.1.0/support-fragment-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/26.1.0/support-core-utils-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/26.1.0/animated-vector-drawable-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/26.1.0/support-vector-drawable-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-media-compat/26.1.0/support-media-compat-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/26.1.0/support-core-ui-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/26.1.0/support-compat-26.1.0.aar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/runtime/1.0.3/runtime-1.0.3.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/26.1.0/appcompat-v7-26.1.0.aar
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+Download https://dl.google.com/dl/android/maven2/android/arch/core/common/1.0.0/common-1.0.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/26.1.0/support-annotations-26.1.0.jar
+Download https://dl.google.com/dl/android/maven2/android/arch/lifecycle/common/1.0.3/common-1.0.3.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre8/1.2.41/kotlin-stdlib-jre8-1.2.41.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jre7/1.2.41/kotlin-stdlib-jre7-1.2.41.jar
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/compiler/3.1.2/compiler-3.1.2.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.pom
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_parent/2.0.18/error_prone_parent-2.0.18.pom
+Download https://dl.google.com/dl/android/maven2/com/android/databinding/compiler/3.1.2/compiler-3.1.2.jar
+Download https://jcenter.bintray.com/com/android/tools/annotations/24.5.0/annotations-24.5.0.jar
+Download https://jcenter.bintray.com/com/google/errorprone/error_prone_annotations/2.0.18/error_prone_annotations-2.0.18.jar
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib/1.2.0/kotlin-stdlib-1.2.0.jar
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.pom
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.0/kotlin-reflect-1.2.0.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.pom
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.pom
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
+Download https://jcenter.bintray.com/org/codehaus/groovy/groovy-all/2.4.12/groovy-all-2.4.12.jar
+Download https://jcenter.bintray.com/org/jetbrains/trove4j/trove4j/20160824/trove4j-20160824.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-reflect/1.2.0/kotlin-reflect-1.2.0.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 3m 15s
+68 actionable tasks: 65 executed, 3 up-to-date
+
+WARNING: Several versions of the build scan plugin were applied: [1.11, 1.8].
+The build scan data was captured by version [1.11].
+This is often caused by multiple init scripts and/or build scripts applying the plugin.
+Used daemon with pid 70536
+Execution time 195541 ms
+
+* Running warm-up build #2 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 7s
+5 actionable tasks: 5 executed
+
+WARNING: Several versions of the build scan plugin were applied: [1.11, 1.8].
+The build scan data was captured by version [1.11].
+This is often caused by multiple init scripts and/or build scripts applying the plugin.
+Used daemon with pid 70536
+Execution time 8017 ms
+
+* Running warm-up build #2 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:validateSigningDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 1m 51s
+68 actionable tasks: 65 executed, 3 up-to-date
+
+WARNING: Several versions of the build scan plugin were applied: [1.11, 1.8].
+The build scan data was captured by version [1.11].
+This is often caused by multiple init scripts and/or build scripts applying the plugin.
+Used daemon with pid 70536
+Execution time 111681 ms
+Using build scan profiler version 1.11
+
+* Using args for instrumented builds:
+Gradle args:
+  -I
+  /var/folders/zv/t5fcbzn91mq99hh8vjwj9s1xzg8nsj/T/gradleProfilerPidInstrumentation2031773937125135002.gradle
+  --gradle-user-home
+  /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home
+  -I
+  /var/folders/zv/t5fcbzn91mq99hh8vjwj9s1xzg8nsj/T/gradleProfilerBuildScanInitScript7553786597491722644.gradle
+  -Dscan
+
+* Starting profiler for daemon with pid 70536
+
+* Running measured build #1 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 7s
+5 actionable tasks: 5 executed
+
+WARNING: Several versions of the build scan plugin were applied: [1.11, 1.8].
+The build scan data was captured by version [1.11].
+This is often caused by multiple init scripts and/or build scripts applying the plugin.
+Used daemon with pid 70536
+Execution time 7954 ms
+
+* Running measured build #1 with build tasks [assembleDebug]
+Using '-Dscan' for creating build scans is deprecated. Use Gradle command line option '--scan' instead.
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:validateSigningDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 1m 50s
+68 actionable tasks: 65 executed, 3 up-to-date
+
+WARNING: Several versions of the build scan plugin were applied: [1.11, 1.8].
+The build scan data was captured by version [1.11].
+This is often caused by multiple init scripts and/or build scripts applying the plugin.
+
+Publishing build scan...
+https://gradle.com/s/qg4wpgnu774y4
+
+Used daemon with pid 70536
+Execution time 112030 ms
+
+* Stopping profiler for daemon with pid 70536
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Results written to /Users/nkozlov/Projects/android-studio-poet/modules/genny_KotlinOnly_DataBinding/profile-out
+  Scenario clean_build using Gradle 4.7
+  - Build scan for 'measured build #1' build [assembleDebug]: https://gradle.com/s/qg4wpgnu774y4
+

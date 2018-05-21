@@ -1,0 +1,2461 @@
+
+* Started at 2018-05-17T08:35:13.801Z
+
+* Settings
+Project dir: .
+Output dir: profile-out-3
+Profiler: none
+Benchmark: true
+Versions: []
+Gradle User Home: gradle-user-home
+Targets: [clean_build]
+
+* Locating default Gradle version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :help
+
+Welcome to Gradle 4.7.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see a list of command-line options, run gradle --help
+
+To see more detail about a task, run gradle help --task <task>
+
+For troubleshooting, visit https://help.gradle.org
+
+BUILD SUCCESSFUL in 19s
+1 actionable task: 1 executed
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Scenarios
+Scenario: clean_build using Gradle 4.7
+  Gradle version: 4.7 (/Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/wrapper/dists/gradle-4.7-all/4cret0dgl5o3b21weaoncl7ys/gradle-4.7)
+  Run using: ToolingApi
+  Cleanup Tasks: [clean, cleanBuildCache]
+  Tasks: [assembleDebug]
+  Gradle args: []
+  Build changes: none
+  Warm-ups: 6
+  Builds: 10
+
+* Running scenario clean_build using Gradle 4.7 (scenario 1/1)
+
+* Stopping daemons
+No Gradle daemons are running.
+
+* Build details
+Gradle version: 4.7
+Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home
+OS name: Mac OS X 10.13.3
+JVM args:
+  -XX:+HeapDumpOnOutOfMemoryError
+  -Xmx1024m
+  -Dfile.encoding=UTF-8
+  -Duser.country=US
+  -Duser.language=en
+  -Duser.variant
+  -Dorg.gradle.profiler.scenario=clean_build
+Gradle args:
+  -I
+  /var/folders/zv/t5fcbzn91mq99hh8vjwj9s1xzg8nsj/T/gradleProfilerPidInstrumentation582066781532028591.gradle
+  --gradle-user-home
+  /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home
+
+* Running warm-up build #1 with cleanup tasks [clean, cleanBuildCache]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 23s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 23657 ms
+
+* Running warm-up build #1 with build tasks [assembleDebug]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+
+D8: Stripped invalid locals information from 1 method.
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:validateSigningDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 4m 55s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 295837 ms
+
+* Running warm-up build #2 with cleanup tasks [clean, cleanBuildCache]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 13s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 13971 ms
+
+* Running warm-up build #2 with build tasks [assembleDebug]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 3m 32s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 212760 ms
+
+* Running warm-up build #3 with cleanup tasks [clean, cleanBuildCache]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 10s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 10032 ms
+
+* Running warm-up build #3 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 27s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 147681 ms
+
+* Running warm-up build #4 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 10s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 10468 ms
+
+* Running warm-up build #4 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 33s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 153248 ms
+
+* Running warm-up build #5 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 10s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 10134 ms
+
+* Running warm-up build #5 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 36s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 156739 ms
+
+* Running warm-up build #6 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 9164 ms
+
+* Running warm-up build #6 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 2s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 122210 ms
+
+* Using args for instrumented builds:
+
+* Running measured build #1 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 9528 ms
+
+* Running measured build #1 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 0s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 121009 ms
+
+* Running measured build #2 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 8s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 8912 ms
+
+* Running measured build #2 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:validateSigningDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 4s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 124336 ms
+
+* Running measured build #3 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 9110 ms
+
+* Running measured build #3 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 3s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 123389 ms
+
+* Running measured build #4 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 9462 ms
+
+* Running measured build #4 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 38s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 158698 ms
+
+* Running measured build #5 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 9287 ms
+
+* Running measured build #5 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 16s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 136537 ms
+
+* Running measured build #6 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 8s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 8872 ms
+
+* Running measured build #6 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 5s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 125263 ms
+
+* Running measured build #7 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 8s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 8640 ms
+
+* Running measured build #7 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 2s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 122818 ms
+
+* Running measured build #8 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 9599 ms
+
+* Running measured build #8 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 1s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 121831 ms
+
+* Running measured build #9 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 9s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 9510 ms
+
+* Running measured build #9 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:validateSigningDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 2m 42s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 162277 ms
+
+* Running measured build #10 with cleanup tasks [clean, cleanBuildCache]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+
+> Task :clean
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+> Task :applicationModule:clean
+> Task :libraryModule:clean
+> Task :applicationModule:cleanBuildCache
+> Task :libraryModule:cleanBuildCache
+
+BUILD SUCCESSFUL in 8s
+5 actionable tasks: 5 executed
+Used daemon with pid 94764
+Execution time 8669 ms
+
+* Running measured build #10 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+applicationModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2'.
+
+> Configure project :libraryModule
+libraryModule: 'annotationProcessor' dependencies won't be recognized as kapt annotation processors. Please change the configuration name to 'kapt' for these artifacts: 'com.android.databinding:compiler:3.1.2', 'com.android.databinding:compiler:3.1.2'.
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest
+> Task :libraryModule:processDebugManifest
+> Task :applicationModule:preDebugBuild
+> Task :libraryModule:compileDebugAidl
+> Task :applicationModule:compileDebugAidl
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript
+> Task :applicationModule:generateDebugResValues
+> Task :applicationModule:generateDebugResources
+> Task :libraryModule:compileDebugRenderscript
+> Task :libraryModule:generateDebugResValues
+> Task :libraryModule:generateDebugResources
+> Task :libraryModule:packageDebugResources
+> Task :applicationModule:mergeDebugResources
+> Task :libraryModule:mergeDebugResources
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :libraryModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+> Task :applicationModule:dataBindingGenBaseClassesDebug
+> Task :applicationModule:checkDebugManifest
+> Task :applicationModule:generateDebugBuildConfig
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug
+> Task :applicationModule:createDebugCompatibleScreenManifests
+> Task :applicationModule:processDebugManifest
+> Task :applicationModule:splitsDiscoveryTaskDebug
+> Task :libraryModule:generateDebugBuildConfig
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:mergeDebugShaders
+> Task :applicationModule:compileDebugShaders
+> Task :applicationModule:generateDebugAssets
+> Task :libraryModule:mergeDebugShaders
+> Task :libraryModule:compileDebugShaders
+> Task :libraryModule:generateDebugAssets
+> Task :libraryModule:packageDebugAssets
+> Task :applicationModule:mergeDebugAssets
+> Task :applicationModule:mergeDebugJniLibFolders
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:validateSigningDebug
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug
+> Task :libraryModule:platformAttrExtractor
+> Task :libraryModule:generateDebugRFile
+> Task :applicationModule:processDebugResources
+> Task :applicationModule:generateDebugSources
+> Task :libraryModule:generateDebugSources
+> Task :libraryModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptGenerateStubsDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :libraryModule:compileDebugKotlin
+> Task :libraryModule:javaPreCompileDebug
+> Task :libraryModule:compileDebugJavaWithJavac
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptGenerateStubsDebugKotlin
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:kaptDebugKotlin
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre7/1.2.41/9e7a6f582de73d9cdc6c56ef4e23604a0ee55768/kotlin-stdlib-jre7-1.2.41.jar: kotlin-stdlib-jre7 is deprecated. Please use kotlin-stdlib-jdk7 instead
+w: /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/gradle-user-home/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jre8/1.2.41/7b389de81710eb609752953f38ad6e7de2927292/kotlin-stdlib-jre8-1.2.41.jar: kotlin-stdlib-jre8 is deprecated. Please use kotlin-stdlib-jdk8 instead
+> Task :applicationModule:compileDebugKotlin
+> Task :applicationModule:javaPreCompileDebug
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :libraryModule:bundleDebug
+> Task :libraryModule:compileDebugSources
+> Task :libraryModule:assembleDebug
+
+BUILD SUCCESSFUL in 1m 58s
+68 actionable tasks: 65 executed, 3 up-to-date
+Used daemon with pid 94764
+Execution time 118090 ms
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Results written to /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaKotlin_DataBinding/profile-out-3
+

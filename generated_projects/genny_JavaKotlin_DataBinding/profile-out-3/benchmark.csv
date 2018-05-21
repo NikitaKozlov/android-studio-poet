@@ -1,0 +1,26 @@
+scenario,clean_build
+version,4.7
+tasks,assembleDebug
+warm-up build #1,295837
+warm-up build #2,212760
+warm-up build #3,147681
+warm-up build #4,153248
+warm-up build #5,156739
+warm-up build #6,122210
+measured build #1,121009
+measured build #2,124336
+measured build #3,123389
+measured build #4,158698
+measured build #5,136537
+measured build #6,125263
+measured build #7,122818
+measured build #8,121831
+measured build #9,162277
+measured build #10,118090
+mean,131424.8
+min,118090.0
+25th percentile,121625.5
+median,123862.5
+75th percentile,142077.25
+max,162277.0
+stddev,16079.790641257325

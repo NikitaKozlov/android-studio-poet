@@ -1,0 +1,1669 @@
+
+* Started at 2018-05-17T07:10:48.777Z
+
+* Settings
+Project dir: .
+Output dir: profile-out-4
+Profiler: none
+Benchmark: true
+Versions: []
+Gradle User Home: gradle-user-home
+Targets: [incremental_build]
+
+* Locating default Gradle version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :help
+
+Welcome to Gradle 4.7.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see a list of command-line options, run gradle --help
+
+To see more detail about a task, run gradle help --task <task>
+
+For troubleshooting, visit https://help.gradle.org
+
+BUILD SUCCESSFUL in 34s
+1 actionable task: 1 executed
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Scenarios
+Scenario: incremental_build using Gradle 4.7
+  Gradle version: 4.7 (/Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaOnly_DataBinding/gradle-user-home/wrapper/dists/gradle-4.7-all/4cret0dgl5o3b21weaoncl7ys/gradle-4.7)
+  Run using: ToolingApi
+  Cleanup Tasks: []
+  Tasks: [assembleDebug]
+  Gradle args: []
+  Build changes: ApplyAbiChangeToJavaSourceFileMutator(./applicationModule/src/main/java/applicationModulepackageJava0/Foo0.java), ApplyNonAbiChangeToJavaSourceFileMutator(./applicationModule/src/main/java/applicationModulepackageJava0/Foo0.java)
+  Warm-ups: 6
+  Builds: 10
+
+* Running scenario incremental_build using Gradle 4.7 (scenario 1/1)
+
+* Stopping daemons
+No Gradle daemons are running.
+
+* Build details
+Gradle version: 4.7
+Java home: /Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home
+OS name: Mac OS X 10.13.3
+JVM args:
+  -XX:+HeapDumpOnOutOfMemoryError
+  -Xmx1024m
+  -Dfile.encoding=UTF-8
+  -Duser.country=US
+  -Duser.language=en
+  -Duser.variant
+  -Dorg.gradle.profiler.scenario=incremental_build
+Gradle args:
+  -I
+  /var/folders/zv/t5fcbzn91mq99hh8vjwj9s1xzg8nsj/T/gradleProfilerPidInstrumentation1527162714864933126.gradle
+  --gradle-user-home
+  /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaOnly_DataBinding/gradle-user-home
+
+* Running warm-up build #1 with build tasks [assembleDebug]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 1m 53s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 113852 ms
+
+* Running warm-up build #2 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 50s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 50125 ms
+
+* Running warm-up build #3 with build tasks [assembleDebug]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 48s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 48511 ms
+
+* Running warm-up build #4 with build tasks [assembleDebug]
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 37s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 37284 ms
+
+* Running warm-up build #5 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 34s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 34753 ms
+
+* Running warm-up build #6 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 26s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 26775 ms
+
+* Using args for instrumented builds:
+
+* Running measured build #1 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 27s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 27239 ms
+
+* Running measured build #2 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 31s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 31706 ms
+
+* Running measured build #3 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 33s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 33348 ms
+
+* Running measured build #4 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 26s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 26609 ms
+
+* Running measured build #5 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 32s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 32111 ms
+
+* Running measured build #6 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 34s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 34900 ms
+
+* Running measured build #7 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 31s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 31459 ms
+
+* Running measured build #8 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 25s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 25230 ms
+
+* Running measured build #9 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 28s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 28536 ms
+
+* Running measured build #10 with build tasks [assembleDebug]
+
+> Configure project :applicationModule
+WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation' and 'testApi'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+WARNING: Configuration 'testApi' is obsolete and has been replaced with 'testImplementation'.
+It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+Unable to determine the version of the Android plugin to include in the build scan, due to java.lang.ClassNotFoundException: com.android.builder.Version
+
+> Task :applicationModule:preBuild UP-TO-DATE
+> Task :libraryModule:preBuild UP-TO-DATE
+> Task :libraryModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:checkDebugManifest UP-TO-DATE
+> Task :libraryModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:preDebugBuild UP-TO-DATE
+> Task :libraryModule:compileDebugAidl UP-TO-DATE
+> Task :applicationModule:compileDebugAidl UP-TO-DATE
+> Task :libraryModule:packageDebugRenderscript NO-SOURCE
+> Task :applicationModule:compileDebugRenderscript UP-TO-DATE
+> Task :applicationModule:generateDebugResValues UP-TO-DATE
+> Task :applicationModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:compileDebugRenderscript UP-TO-DATE
+> Task :libraryModule:generateDebugResValues UP-TO-DATE
+> Task :libraryModule:generateDebugResources UP-TO-DATE
+> Task :libraryModule:packageDebugResources UP-TO-DATE
+> Task :applicationModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:mergeDebugResources UP-TO-DATE
+> Task :libraryModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :libraryModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingGenBaseClassesDebug UP-TO-DATE
+> Task :applicationModule:checkDebugManifest UP-TO-DATE
+> Task :applicationModule:generateDebugBuildConfig UP-TO-DATE
+> Task :applicationModule:prepareLintJar UP-TO-DATE
+> Task :applicationModule:mainApkListPersistenceDebug UP-TO-DATE
+> Task :applicationModule:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :applicationModule:processDebugManifest UP-TO-DATE
+> Task :applicationModule:splitsDiscoveryTaskDebug UP-TO-DATE
+> Task :libraryModule:platformAttrExtractor UP-TO-DATE
+> Task :libraryModule:generateDebugRFile UP-TO-DATE
+> Task :applicationModule:processDebugResources UP-TO-DATE
+> Task :applicationModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:generateDebugBuildConfig UP-TO-DATE
+> Task :libraryModule:prepareLintJar UP-TO-DATE
+> Task :libraryModule:generateDebugSources UP-TO-DATE
+> Task :libraryModule:dataBindingExportBuildInfoDebug UP-TO-DATE
+> Task :libraryModule:javaPreCompileDebug UP-TO-DATE
+> Task :libraryModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :libraryModule:compileDebugJavaWithJavac UP-TO-DATE
+> Task :libraryModule:processDebugJavaRes NO-SOURCE
+> Task :libraryModule:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :applicationModule:dataBindingExportBuildInfoDebug
+> Task :applicationModule:javaPreCompileDebug UP-TO-DATE
+> Task :applicationModule:transformDataBindingWithDataBindingMergeArtifactsForDebug UP-TO-DATE
+> Task :applicationModule:compileDebugJavaWithJavac
+> Task :applicationModule:compileDebugNdk NO-SOURCE
+> Task :applicationModule:compileDebugSources
+> Task :applicationModule:mergeDebugShaders UP-TO-DATE
+> Task :applicationModule:compileDebugShaders UP-TO-DATE
+> Task :applicationModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:mergeDebugShaders UP-TO-DATE
+> Task :libraryModule:compileDebugShaders UP-TO-DATE
+> Task :libraryModule:generateDebugAssets UP-TO-DATE
+> Task :libraryModule:packageDebugAssets UP-TO-DATE
+> Task :applicationModule:mergeDebugAssets UP-TO-DATE
+> Task :applicationModule:transformClassesWithStackFramesFixerForDebug
+> Task :applicationModule:transformClassesWithDesugarForDebug
+> Task :applicationModule:transformClassesWithDexBuilderForDebug
+Warning: The rule `-keep public class *extends java.lang.annotation.Annotation {
+  *;
+}` uses extends but actually matches implements.
+> Task :applicationModule:transformClassesWithMultidexlistForDebug
+> Task :applicationModule:transformDexArchiveWithDexMergerForDebug
+> Task :applicationModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:compileDebugNdk NO-SOURCE
+> Task :libraryModule:mergeDebugJniLibFolders UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :applicationModule:processDebugJavaRes NO-SOURCE
+> Task :applicationModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :applicationModule:validateSigningDebug UP-TO-DATE
+> Task :applicationModule:packageDebug
+> Task :applicationModule:assembleDebug
+> Task :libraryModule:extractDebugAnnotations UP-TO-DATE
+> Task :libraryModule:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :libraryModule:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :libraryModule:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :libraryModule:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :libraryModule:bundleDebug UP-TO-DATE
+> Task :libraryModule:compileDebugSources UP-TO-DATE
+> Task :libraryModule:assembleDebug UP-TO-DATE
+
+BUILD SUCCESSFUL in 28s
+62 actionable tasks: 8 executed, 54 up-to-date
+Used daemon with pid 74977
+Execution time 28559 ms
+
+* Stopping daemons
+Stopping Daemon(s)
+1 Daemon stopped
+
+* Results written to /Users/nkozlov/Projects/android-studio-poet/modules/genny_JavaOnly_DataBinding/profile-out-4
+
