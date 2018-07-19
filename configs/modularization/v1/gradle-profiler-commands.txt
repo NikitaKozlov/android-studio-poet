@@ -2,4 +2,21 @@ gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-pr
 
 gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios app_inc_build
 
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios app_java_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios app_kotlin_inc_build
+
 gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios lib_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios lib_java_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios lib_kotlin_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios lib_only_java_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios lib_only_kotlin_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios lib_only_java_inc_build
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios lib_java_inc_build
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios app_java_inc_build
+

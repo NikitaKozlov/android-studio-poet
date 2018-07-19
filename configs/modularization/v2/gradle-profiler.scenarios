@@ -1,0 +1,76 @@
+app_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "app/src/main/java/apppackageJava0/Foo0.java"
+    apply-non-abi-change-to = "app/src/main/java/apppackageJava0/Foo0.java"
+    apply-kotlin-change-to = "app/src/main/java/apppackageKt3/Foo2.kt"
+
+    warm-ups = 6
+}
+
+core_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "core/src/main/java/corepackageJava0/Foo0.java"
+    apply-non-abi-change-to = "core/src/main/java/corepackageJava0/Foo0.java"
+    apply-kotlin-change-to = "core/src/main/java/corepackageKt3/Foo2.kt"
+
+    warm-ups = 6
+}
+
+
+feature_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "feature/src/main/java/featurepackageJava0/Foo0.java"
+    apply-non-abi-change-to = "feature/src/main/java/featurepackageJava0/Foo0.java"
+    apply-kotlin-change-to = "feature/src/main/java/featurepackageKt3/Foo2.kt"
+
+    warm-ups = 6
+}
+
+feature3_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "feature3/src/main/java/feature3packageJava0/Foo0.java"
+    apply-non-abi-change-to = "feature3/src/main/java/feature3packageJava0/Foo0.java"
+    apply-kotlin-change-to = "feature3/src/main/java/feature3packageKt3/Foo2.kt"
+
+    warm-ups = 6
+}
+
+app_java_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "app/src/main/java/apppackageJava0/Foo0.java"
+    apply-non-abi-change-to = "app/src/main/java/apppackageJava0/Foo0.java"
+
+    warm-ups = 6
+}
+
+core_java_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "core/src/main/java/corepackageJava0/Foo0.java"
+    apply-non-abi-change-to = "core/src/main/java/corepackageJava0/Foo0.java"
+
+    warm-ups = 6
+}
+
+
+feature_java_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "feature/src/main/java/featurepackageJava0/Foo0.java"
+    apply-non-abi-change-to = "feature/src/main/java/featurepackageJava0/Foo0.java"
+
+    warm-ups = 6
+}
+
+feature_java_non_abi_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-non-abi-change-to = "feature/src/main/java/featurepackageJava0/Foo0.java"
+
+    warm-ups = 6
+}

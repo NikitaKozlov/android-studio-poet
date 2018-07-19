@@ -1,0 +1,127 @@
+{
+  "inputVersion": "0.1",
+  "projectConfig": {
+    "projectName": "genny_Topologies_AppWithDependentFeatures",
+    "root": "../generated_projects/topologies",
+    "buildSystemConfig": {
+      "buildSystemVersion": "4.8",
+      "agpVersion": "3.1.2",
+      "kotlinVersion": "1.2.50"
+    },
+    "moduleConfigs": [
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "java": {
+          "packages": 30,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "kotlin": {
+          "packages": 30,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "useKotlin": true,
+        "moduleName": "app",
+        "activityCount": 1,
+        "hasLaunchActivity": true,
+        "resourcesConfig": {
+          "stringCount": 1,
+          "imageCount": 1,
+          "layoutCount": 1
+        },
+        "dependencies": [
+          {
+            "moduleName": "feature1"
+          },
+          {
+            "moduleName": "feature2"
+          },
+          {
+            "moduleName": "feature3"
+          }
+        ]
+      },
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "java": {
+          "packages": 15,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "kotlin": {
+          "packages": 15,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "useKotlin": true,
+        "moduleName": "feature1",
+        "activityCount": 5,
+        "resourcesConfig": {
+          "stringCount": 5,
+          "imageCount": 5,
+          "layoutCount": 5
+        }
+      },
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "java": {
+          "packages": 15,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "kotlin": {
+          "packages": 15,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "useKotlin": true,
+        "moduleName": "feature2",
+        "activityCount": 5,
+        "resourcesConfig": {
+          "stringCount": 5,
+          "imageCount": 5,
+          "layoutCount": 5
+        },
+        "dependencies": [
+          {
+            "moduleName": "feature3"
+          }
+        ]
+      },
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "java": {
+          "packages": 15,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "kotlin": {
+          "packages": 15,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "useKotlin": true,
+        "moduleName": "feature3",
+        "activityCount": 5,
+        "resourcesConfig": {
+          "stringCount": 5,
+          "imageCount": 5,
+          "layoutCount": 5
+        }
+      }
+    ]
+  }
+}

@@ -2,4 +2,6 @@ gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-pr
 
 gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios java_inc_build
 
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios clean_build
 gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios kotlin_inc_build

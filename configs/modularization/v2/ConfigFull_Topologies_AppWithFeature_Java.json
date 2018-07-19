@@ -1,0 +1,56 @@
+{
+  "inputVersion": "0.1",
+  "projectConfig": {
+    "projectName": "genny_Topologies_AppWithFeature_Java",
+    "root": "../generated_projects/topologies",
+    "buildSystemConfig": {
+      "buildSystemVersion": "4.8",
+      "agpVersion": "3.1.2",
+      "kotlinVersion": "1.2.50"
+    },
+    "moduleConfigs": [
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "java": {
+          "packages": 100,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "moduleName": "app",
+        "activityCount": 1,
+        "hasLaunchActivity": true,
+        "resourcesConfig": {
+          "stringCount": 1,
+          "imageCount": 1,
+          "layoutCount": 1
+        },
+        "dependencies": [
+          {
+            "moduleName": "feature"
+          }
+        ]
+      },
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "java": {
+          "packages": 4,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "moduleName": "feature",
+        "activityCount": 5,
+        "resourcesConfig": {
+          "stringCount": 5,
+          "imageCount": 5,
+          "layoutCount": 5
+        }
+      }
+    ]
+  }
+}

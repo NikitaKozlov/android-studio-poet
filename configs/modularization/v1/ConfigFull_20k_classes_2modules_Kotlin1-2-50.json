@@ -1,0 +1,58 @@
+{
+  "inputVersion": "0.1",
+  "projectConfig": {
+    "projectName": "genny_20k_classes_2modules_Kotlin1-2-50",
+    "root": "../generated_projects/modularization",
+    "buildSystemConfig": {
+      "buildSystemVersion": "4.8",
+      "agpVersion": "3.1.2",
+      "kotlinVersion": "1.2.50"
+    },
+    "moduleConfigs": [
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "kotlin": {
+          "packages": 50,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "useKotlin": true,
+        "moduleName": "applicationModule",
+        "activityCount": 5,
+        "hasLaunchActivity": true,
+        "resourcesConfig": {
+          "stringCount": 5,
+          "imageCount": 5,
+          "layoutCount": 5
+        },
+        "dependencies": [
+          {
+            "moduleName": "libraryModule"
+          }
+        ]
+      },
+      {
+        "moduleType": "android",
+        "androidBuildConfig": {
+          "minSdkVersion": 21
+        },
+        "kotlin": {
+          "packages": 50,
+          "classesPerPackage": 200,
+          "methodsPerClass": 10
+        },
+        "useKotlin": true,
+        "moduleName": "libraryModule",
+        "activityCount": 5,
+        "resourcesConfig": {
+          "stringCount": 5,
+          "imageCount": 5,
+          "layoutCount": 5
+        }
+      }
+    ]
+  }
+}

@@ -14,12 +14,62 @@ lib_inc_build {
     warm-ups = 6
 }
 
+lib_java_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "libraryModule/src/main/java/libraryModulepackageJava0/Foo0.java"
+    apply-non-abi-change-to = "libraryModule/src/main/java/libraryModulepackageJava0/Foo0.java"
+
+    warm-ups = 6
+}
+
+lib_kotlin_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-kotlin-change-to = "libraryModule/src/main/java/libraryModulepackageKt3/Foo2.kt"
+
+    warm-ups = 6
+}
+
+lib_only_java_inc_build {
+    tasks = [":libraryModule:assembleDebug"]
+
+    apply-abi-change-to = "libraryModule/src/main/java/libraryModulepackageJava0/Foo0.java"
+    apply-non-abi-change-to = "libraryModule/src/main/java/libraryModulepackageJava0/Foo0.java"
+
+    warm-ups = 6
+}
+
+lib_only_kotlin_inc_build {
+    tasks = [":libraryModule:assembleDebug"]
+
+    apply-kotlin-change-to = "libraryModule/src/main/java/libraryModulepackageKt3/Foo2.kt"
+
+    warm-ups = 6
+}
 
 app_inc_build {
     tasks = ["assembleDebug"]
 
     apply-abi-change-to = "applicationModule/src/main/java/applicationModulepackageJava0/Foo0.java"
     apply-non-abi-change-to = "applicationModule/src/main/java/applicationModulepackageJava0/Foo0.java"
+    apply-kotlin-change-to = "applicationModule/src/main/java/applicationModulepackageKt3/Foo2.kt"
+
+    warm-ups = 6
+}
+
+app_java_inc_build {
+    tasks = ["assembleDebug"]
+
+    apply-abi-change-to = "applicationModule/src/main/java/applicationModulepackageJava0/Foo0.java"
+    apply-non-abi-change-to = "applicationModule/src/main/java/applicationModulepackageJava0/Foo0.java"
+
+    warm-ups = 6
+}
+
+app_kotlin_inc_build {
+    tasks = ["assembleDebug"]
+
     apply-kotlin-change-to = "applicationModule/src/main/java/applicationModulepackageKt3/Foo2.kt"
 
     warm-ups = 6

@@ -1,0 +1,15 @@
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios app_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios core_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios feature_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios feature3_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios app_java_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios core_java_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios feature_java_inc_build
+
+gradle-profiler --profile buildscan --project-dir . --scenario-file ../gradle-profiler.scenarios feature_java_non_abi_inc_build
